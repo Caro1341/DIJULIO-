@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  background-color: #ff7987;
+
+  justify-content: space-around;
+  align-items: center;
+  .items {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    padding: 1% 5%;
+    text-decoration: none;
+    color: whitesmoke;
+    &:hover {
+      background-color: #ae79ff;
+      cursor: pointer;
+    }
+  }
+
+  .imgLogo {
+    max-width: 5rem;
+    padding: 0.5%;
+  }
+}
